@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+h1{
+    text-align: center;
+    font-family: 'Alkatra', cursive;
+    color: #F7CD2E;
+    font-size: 50px;
+}
+
+h1 + p{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+article.game-description p{
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+section.storage{
+    text-align: center;
+}
+
+section label{
+    font-family: 'Mukta', sans-serif;
+    font-size: 30px;
+    color: #35BDD0;
+}
+
+section .guessing-number{
+    height: 50px;
+    width: 15rem;
+    border-radius: 5px;
+    margin-left: 1rem;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Mukta', sans-serif;
+}
+
+section .submit-button{
+    height: 2rem;
+    width: auto;
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+    border-radius: 3px;
+    background-color: bisque;
+    margin-left: 1rem;
+}
+
+section .submit-button:hover{
+    background-color: burlywood;
+    cursor: pointer;
+}
+
+section.guessField{
+    background-color: rgb(253, 253, 253);
+    height: 10rem;
+    width: 30rem;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    border-radius: 10px;
+}
+
+section p.previous-input{
+    font-size: 30px;
+}
+section + p.outputField{
+    background-color: antiquewhite;
+    font-size: 30px;
+}
+
+section.storage  button.resetBtn{
+    height: 2rem;
+    width: 10rem;
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+    border-radius: 3px;
+    background-color: bisque;
+    /* margin-left: 10rem; */
+    margin-top: 3rem;
+}
+
+section.storage  button.resetBtn:hover{
+    background-color: beige;
+    cursor: pointer;
+}
